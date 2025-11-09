@@ -12,7 +12,7 @@ st.set_page_config(page_title="Dating Matcher", layout="centered")
 
 st.title("Dating Matcher — Demo")
 
-DATA_PATH = st.sidebar.text_input("Path to CSV", "data/dating_app_dataset.csv")
+DATA_PATH = st.sidebar.text_input("Path to CSV", "Data/dating_app_dataset.csv")
 top_k = st.sidebar.slider("Top K matches", 1, 10, 5)
 
 try:
